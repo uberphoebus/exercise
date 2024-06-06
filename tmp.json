@@ -1,0 +1,25 @@
+{"response": 
+  {
+    "last_updated": 49846545,
+    "ranks": [
+      {
+        "rank": 1,
+        "appid": 123,
+        "name": "John",
+        "score": 100
+      },
+      {
+        "rank": 2,
+        "appid": 333,
+        "name": "Jane",
+        "score": 90
+      },
+      {
+        "rank": 3,
+        "appid": 13425,
+        "name": "Jim",
+        "score": 80
+      }
+    ]
+  }
+}

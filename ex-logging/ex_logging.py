@@ -7,6 +7,7 @@ logging.basicConfig(
     # filemode="w",
 )
 
+
 # logger = logging.getLogger("name")
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -22,6 +23,17 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 logger.info("test custom logger")
+
+
+for i in range(50):
+    print(f"\33[{i}m{'noooooooooooooooooooooo'}\33[0m{i, 'faishiufhesiufh'}")
+# print(f"\33[31m{'-'*50}\33[0m{'faishiufhesiufh'}")
+# print(f"\33[0m{'-'*50}\33[0m{'faishiufhesiufh'}")
+# print(f"\33[1m{'-'*50}\33[0m{'faishiufhesiufh'}")
+# print(f"\33[2m{'-'*50}\33[0m{'faishiufhesiufh'}")
+# print(f"\33[3m{'-'*50}\33[0m{'faishiufhesiufh'}")
+# print(f"\33[4m{'-'*50}\33[0m{'faishiufhesiufh'}")
+# print(f"\33[5m{'-'*50}\33[0m{'faishiufhesiufh'}")
 
 
 def add(x, y):
