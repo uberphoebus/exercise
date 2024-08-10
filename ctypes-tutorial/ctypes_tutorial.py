@@ -14,7 +14,7 @@ func.restype = ctypes.c_char_p
 
 
 name_string = ctypes.c_char_p(b"John")
-print(f"{name_string=}")  # memory address / pointer
+print(f"{name_string=}")  # memory address / pointer -> file path
 
 a = func(name_string, 18)
 print(f"{a=}")
