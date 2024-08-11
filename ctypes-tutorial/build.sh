@@ -1,1 +1,1 @@
-gcc -fPIC -shared -o clibrary.so clibrary.c
+gcc -fPIC -shared -o ./ctypes-tutorial/clibrary.so ./ctypes-tutorial/clibrary.c
