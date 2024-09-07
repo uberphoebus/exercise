@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "stdio.h": "c",
-    "time.h": "c"
+    "time.h": "c",
+    "errno.h": "c"
   },
   "cmake.sourceDirectory": "/workspaces/exercise/CoffeeManagement"
 }
