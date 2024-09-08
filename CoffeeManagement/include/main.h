@@ -10,8 +10,8 @@
 #include <string.h>
 #include <time.h>
 
-extern menuItem *menuItemList;
-extern orderNode *orderList;
+extern menuItem *g_menuItemList;
+extern orderNode *g_orderList;
 
 int passwordCheck();
 void loadCoffeeMenu();
